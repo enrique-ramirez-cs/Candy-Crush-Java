@@ -1,10 +1,6 @@
 # Verificador de tableros de Candy Crush
 
-## Autor: Enrique Ramírez Céspedes
-
-Carnet: C16272.
-
-**Correo**: [yeral.ramirez@ucr.ac.cr](mailto:yeral.ramirez@ucr.ac.cr)
+## Autor: Enrique Ramírez
 
 ## Descripción del problema:
 
@@ -214,10 +210,6 @@ R2 R3 R4
 R5 R6 B1 
 ```
 ## Notas:
-
-- En la carpeta `design` vienen dos archivos pseudo. No es mi hábito hacer pseudocódigo en la computadora, pero hacen un breve resumen de mi idea al estructurar las clases `Operador` y `Tablero`. 
-
-- En `design` se encuentra un archivo pdf de mi cuaderno escaneado con mi análisis del proyecto escrito a mano, así como calculaciones manuales que hice para verificar la funcionalidad de mis métodos, y pseudocódigo.
 
 - Por la matriz compuesta que venia en el enunciado de Jeisson, el checkstyle da varios errores. Son porque se generan espacios entre los signos de llave. Creo que es por una extensión que tengo instalada en `VsCode`.
 
