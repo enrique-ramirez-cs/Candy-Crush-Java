@@ -1,0 +1,33 @@
+public void procesar(){
+int filas = scanner.next();
+
+int columnas = scanner.next();
+
+int contador=0;
+for (int i=0;i<filas; i++) {
+  for (int j=0;i<cols; i++) {
+    matriz[i][j]=scanner.Next();
+  contador++;
+
+  }
+}
+if (filas<3|| columnas<3) {
+  print(invalid input);
+} else if (filas no es realmente int 
+|| columnas no es realmente int || filas != matriz.length 
+|| columnas !=matriz[0].length) {
+  print(invalid input);
+} else if (contador != filas*columnas) {
+  print(invalid input);
+} else if(la matriz tiene caracteres no válidos){
+  print(invalid input);
+  } else {
+    matriz = operador.procesarMatriz(matriz, filas, cols);
+    imprimirMatriz(numeroTablero++, matriz, filas, cols);
+}
+}
+
+
+public void imprimir matriz(matriz, filas, cols) {
+  (recorro la matriz e imprimo cada elemento...)
+}

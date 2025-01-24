@@ -1,0 +1,66 @@
+public class Operador{
+  public String[][] procesarMatriz(matriz, filas, cols) {
+
+    do { //esto se hace hasta que no hayan operaciones por hacer.
+      (intento aplicar gravedad)
+      continue;
+
+      (busco 5 o más en linea)
+      continue;
+
+      (busco L's o T's)
+      continue;
+
+      (busco 4 en linea)
+      continue;
+
+      (busco 3 en linea)
+      continue;
+    }
+    return matriz; 
+    
+  }
+
+  METODO DE BUSCAR 5 EN LINEA {
+    (recorro la matriz) {
+      tomo la primera secuencia de 5 o mas numeros que me aparezca
+      se prioriza vertical;
+
+      elimino los elementos;
+      veo si se eliminaron elementos especiales;
+      en el inicio de la secuencia, pongo un B y el color.
+    }
+  }
+
+  METODO DE RECORRER LAS L's y T's {
+    (se recorre la matriz), se busca el patrón 
+
+    Si se encuentra un patrón, elimino esos elementos y pongo una W
+    donde el patrón comenzó
+  }
+
+  METODO DE BUSCAR 4 EN LINEA {
+    tomo la primera secuencia de 4 numeros que hay
+     se prioriza vertical;
+
+    elimino los elementos;
+      veo si se eliminaron elementos especiales;
+      en el inicio de la secuencia, pongo una V  si la eliminacion fue
+      vertical. Si fue horizontal, una H.
+
+    
+
+  }
+
+  METODO DE BUSCAR 3 EN LINEA {
+    busco y elimino secuencia de 3 elementos en linea
+    no se hace nada despues, solo llenar con "--".
+  }
+
+  METODO DE APLICAR GRAVEDAD {
+    se lee la matriz y se intercambian espacios vacios 
+    por los no vacios arriba de ellos
+  }
+
+
+}
